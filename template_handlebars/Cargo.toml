@@ -1,0 +1,10 @@
+[package]
+name = "template_handlebars"
+version = "1.0.0"
+authors = ["Alexandru Tiniuc <tiniuc.alexandru@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+loony = { git = "https://github.com/sankar-boro/loony" }
+handlebars = { version = "3.0.0", features = ["dir_source"] }
+serde_json = "1.0"

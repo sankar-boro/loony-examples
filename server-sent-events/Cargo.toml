@@ -1,0 +1,12 @@
+[package]
+name = "server-sent-events"
+version = "1.0.0"
+authors = ["Arve Seljebu"]
+edition = "2018"
+
+[dependencies]
+loony = { git = "https://github.com/sankar-boro/loony" }
+bytes = "1.0"
+env_logger = "0.8"
+futures = "0.3"
+tokio = "1"

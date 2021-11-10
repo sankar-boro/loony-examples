@@ -1,0 +1,20 @@
+[package]
+name = "websocket-chat"
+version = "2.0.0"
+authors = ["Nikolay Kim <fafhrd91@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "websocket-chat-server"
+path = "src/main.rs"
+
+[dependencies]
+loony = { git = "https://github.com/sankar-boro/loony" }
+loony-util = { git = "https://github.com/sankar-boro/loony" }
+loony-files = { git = "https://github.com/sankar-boro/loony-extras" }
+
+rand = "0.8"
+futures = "0.3"
+env_logger = "0.8"
+serde = "1.0"
+serde_json = "1.0"

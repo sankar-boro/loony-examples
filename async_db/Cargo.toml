@@ -1,0 +1,17 @@
+[package]
+name = "async_db"
+version = "2.0.0"
+authors = ["Darin Gordon <dkcdkg@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+loony = { git = "https://github.com/sankar-boro/loony" }
+env_logger = "0.8"
+futures = "0.3"
+derive_more = "0.99"
+num_cpus = "1.13"
+r2d2 = "0.8"
+r2d2_sqlite = "0.14"
+rusqlite = "0.21"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"

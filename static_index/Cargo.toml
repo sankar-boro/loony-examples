@@ -1,0 +1,12 @@
+[package]
+name = "static_index"
+version = "2.0.0"
+authors = ["Jose Marinez <digeratus@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+futures = "0.3"
+env_logger = "0.8"
+
+loony = { git = "https://github.com/sankar-boro/loony" }
+loony-files = { git = "https://github.com/sankar-boro/loony-extras" }

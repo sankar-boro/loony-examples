@@ -1,0 +1,24 @@
+[package]
+name = "simple-auth-server"
+version = "2.0.0"
+authors = ["mygnu <tech@hgill.io>"]
+edition = "2018"
+
+[dependencies]
+loony-identity = { git = "https://github.com/sankar-boro/loony-extras" }
+loony = { git = "https://github.com/sankar-boro/loony" }
+
+argonautica = "0.2"
+chrono = { version = "0.4.6", features = ["serde"] }
+derive_more = "0.99"
+diesel = { version = "1.4", features = ["postgres", "uuidv07", "r2d2", "chrono"] }
+dotenv = "0.15"
+env_logger = "0.8"
+futures = "0.3"
+r2d2 = "0.8"
+lazy_static = "1.3"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sparkpost = "0.5"
+uuid = { version = "0.8", features = ["serde", "v4"] }
+time = "0.2"

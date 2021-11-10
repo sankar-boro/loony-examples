@@ -1,0 +1,12 @@
+[package]
+name = "shutdown-server"
+version = "2.0.0"
+authors = ["Rob Ede <robjtede@icloud.com>"]
+edition = "2018"
+description = "Send a request to the server to shut it down"
+
+[dependencies]
+loony = { git = "https://github.com/sankar-boro/loony" }
+env_logger = "0.8"
+futures = "0.3"
+tokio = { version = "1", features = ["signal"] }

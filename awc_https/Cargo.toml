@@ -1,0 +1,9 @@
+[package]
+name = "awc_https"
+version = "0.1.0"
+authors = ["dowwie <dkcdkg@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+loony = { git = "https://github.com/sankar-boro/loony", features = ["openssl"] }
+openssl = "0.10"

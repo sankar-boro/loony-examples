@@ -1,0 +1,14 @@
+[package]
+name = "middleware-example"
+version = "2.0.0"
+authors = ["Gorm Casper <gcasper@gmail.com>", "Sven-Hendrik Haase <svenstaro@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+loony = { git = "https://github.com/sankar-boro/loony" }
+# loony-util = { git = "https://github.com/sankar-boro/loony" }
+
+bytes = "1.0"
+env_logger = "0.8"
+futures = "0.3"
+pin-project = "1.0"

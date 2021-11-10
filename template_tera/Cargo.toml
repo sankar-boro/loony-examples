@@ -1,0 +1,10 @@
+[package]
+name = "template-tera"
+version = "2.0.0"
+authors = ["Nikolay Kim <fafhrd91@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+env_logger = "0.8"
+tera = "1.0"
+loony = { git = "https://github.com/sankar-boro/loony" }

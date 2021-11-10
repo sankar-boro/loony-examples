@@ -1,0 +1,13 @@
+[package]
+name = "http-proxy"
+version = "2.0.0"
+authors = ["Nikolay Kim <fafhrd91@gmail.com>", "Rotem Yaari <vmalloc@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+loony = { git = "https://github.com/sankar-boro/loony" }
+bytes = "1.0"
+clap = "2.32"
+futures = "0.3"
+failure = "0.1"
+url = "2.1"

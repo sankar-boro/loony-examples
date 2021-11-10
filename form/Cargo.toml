@@ -1,0 +1,9 @@
+[package]
+name = "form-example"
+version = "1.0.0"
+authors = ["Gorm Casper <gcasper@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+loony = { git = "https://github.com/sankar-boro/loony" }
+serde = { version = "1.0", features = ["derive"] }

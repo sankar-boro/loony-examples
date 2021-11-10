@@ -1,0 +1,12 @@
+[package]
+name = "template-askama"
+version = "2.0.0"
+authors = ["Nikolay Kim <fafhrd91@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+loony = { git = "https://github.com/sankar-boro/loony" }
+askama = "0.9"
+
+[build-dependencies]
+askama = "0.9"

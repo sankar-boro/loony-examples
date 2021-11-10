@@ -1,0 +1,10 @@
+[package]
+name = "run-in-thread"
+version = "2.0.0"
+authors = ["Nikolay Kim <fafhrd91@gmail.com>"]
+edition = "2018"
+description = "Run actix-web in separate thread"
+
+[dependencies]
+loony = { git = "https://github.com/sankar-boro/loony" }
+env_logger = "0.8"

@@ -1,0 +1,15 @@
+[package]
+name = "rustls-example"
+version = "1.0.0"
+authors = ["Nikolay Kim <fafhrd91@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "rustls-server"
+path = "src/main.rs"
+
+[dependencies]
+env_logger = "0.8"
+rustls = "0.19"
+loony = { git = "https://github.com/sankar-boro/loony", features = ["rustls"] }
+loony-files = { git = "https://github.com/sankar-boro/loony-extras" }

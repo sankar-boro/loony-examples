@@ -1,0 +1,15 @@
+[package]
+name = "awc_examples"
+version = "2.0.0"
+authors = ["dowwie <dkcdkg@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+loony = { git = "https://github.com/sankar-boro/loony" }
+bytes = "1.0"
+env_logger = "0.8"
+futures = "0.3"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+validator = "0.10"
+validator_derive = "0.10"

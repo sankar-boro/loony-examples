@@ -1,0 +1,20 @@
+[package]
+name = "websocket"
+version = "2.0.0"
+authors = ["Nikolay Kim <fafhrd91@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "server"
+path = "src/main.rs"
+
+[[bin]]
+name = "client"
+path = "src/client.rs"
+
+[dependencies]
+loony = { git = "https://github.com/sankar-boro/loony" }
+loony-files = { git = "https://github.com/sankar-boro/loony-extras" }
+
+env_logger = "0.8"
+futures = "0.3"

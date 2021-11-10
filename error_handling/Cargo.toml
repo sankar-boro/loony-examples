@@ -1,0 +1,12 @@
+[package]
+name = "error_handling"
+version = "1.0.0"
+authors = ["dowwie <dkcdkg@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+loony = { git = "https://github.com/sankar-boro/loony" }
+derive_more = "0.99"
+futures = "0.3"
+rand = "0.8"
+env_logger = "0.8"
